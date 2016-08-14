@@ -12,9 +12,9 @@ $(document).ready(function() {
 
   $('#depositChecking').on('click', function() {
     var currentBalance = parseInt($('#checkingBalance').text())
-    console.log(currentBalance);
+    // console.log(currentBalance);
     var value = parseInt($('#amountChecking').val());
-    console.log(value);
+    // console.log(value);
     var newBalance = currentBalance + value;
     $('#checkingBalance').text(newBalance);
     console.log(newBalance);
